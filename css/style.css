@@ -190,9 +190,7 @@ h3 {
     margin-top: 150px;
     width: 710px;
     height: 579px;
-    position: absolute;
-    right: 179px;
-   
+
 
 }
 
@@ -201,6 +199,7 @@ h3 {
     /* border: 1px black solid; */
     z-index: 10;
     margin-top: 150px;
+    text-align: right;
     /* padding-left: 179px; */
     }
 
@@ -220,7 +219,66 @@ h3 {
     justify-content: space-between;
     margin: 0 auto;
     /* margin-top: 150px; */
-    margin-bottom: 150px;
-    margin-left: 179px;
-    margin-right: 179px;
+
+}
+
+.collection {
+    width:100%;
+    max-width: 1440px;
+    height: 340px;
+    margin: 0 auto;
+    padding-left: 30px;
+    padding-top: 247px;
+    text-shadow: 0px 4px 4px 0px #00000040;
+
+    
+
+}
+
+.col2 {
+    color: black;
+    text-shadow: 0 2px 2px;
+    font-size: 24px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.carousel {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+
+}
+
+.product {
+    border: 0px black solid;
+    width: 330px;
+    height: 481px;
+}
+
+.left_arrow, .right_arrow {
+    padding-left: 30px;
+    padding-top: 196px;
+}
+
+.prod_descr {
+   /* Свитер махровый Свитер махровый Свитер махровый */
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 140%;
+/* or 20px */
+
+/* Основной цвет текста */
+color: #252525;
+
+
+}
+
+.price {
+    font-size: 16px;
+    font-weight: bold;
 }
