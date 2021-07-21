@@ -297,7 +297,7 @@ color: #252525;
     margin: 60px auto;
 }
 
-.footer2 {
+.footer_nav {
     width: 50%;
     display: flex; 
     justify-content: space-between;
